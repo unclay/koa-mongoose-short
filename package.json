@@ -1,0 +1,33 @@
+{
+  "name": "koa-mongoose-short",
+  "version": "1.0.0",
+  "description": "通过短连接的连接方式来使用mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unclay/koa-mongoose-short.git"
+  },
+  "keywords": [
+    "koa",
+    "mongoose",
+    "short-connection",
+    "bae",
+    "bce",
+    "yield"
+  ],
+  "author": "wangchenglin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unclay/koa-mongoose-short/issues"
+  },
+  "homepage": "https://github.com/unclay/koa-mongoose-short#readme",
+  "dependencies": {
+    "mongoose": "^4.4.5"
+  },
+  "devDependencies": {
+    "koa": "^1.1.2"
+  }
+}
