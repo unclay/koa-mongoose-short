@@ -5,6 +5,12 @@
 + koa@1.x
 + mongoose@4.x
 
+## 属性
++ mongoose {object}   即mongoose
++ db       {object}   存放mongoose.createConnection
++ connect  {function} 创建koa中间件，参数是一个对象{object}
+	+ url mongodb数据库连接地址 (mongo://user:pass@host:port/dbname)
+
 ## 使用方法
 目前暂定只支持数据库连接参数来链接
 	
