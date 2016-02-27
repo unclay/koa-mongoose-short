@@ -13,7 +13,7 @@
 	+ idleTimeoutMillis 超时时间，默认30000
 	+ max 最大连接数，默认10
 	+ min 最小连接数，默认0
-	+ log pool日志，默认fase
+	+ log pool日志，默认false
 
 ## 使用方法
 目前暂定只支持数据库连接参数来链接

@@ -1,6 +1,6 @@
 {
   "name": "koa-mongoose-short",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "通过短连接的连接方式来使用mongoose",
   "main": "index.js",
   "scripts": {
