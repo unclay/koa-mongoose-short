@@ -10,6 +10,10 @@
 + db       {object}   存放mongoose.createConnection
 + connect  {function} 创建koa中间件，参数是一个对象{object}
 	+ url mongodb数据库连接地址 (mongo://user:pass@host:port/dbname)
+	+ idleTimeoutMillis 超时时间，默认30000
+	+ max 最大连接数，默认10
+	+ min 最小连接数，默认0
+	+ log pool日志，默认fase
 
 ## 使用方法
 目前暂定只支持数据库连接参数来链接
